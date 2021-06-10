@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Seek clone</title>
+  </head>
+  <body>
+    <div style="background-color:lightgray;">
+    <ul class="nav justify-content-center" id="bar" style="padding-left: 15rem;">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Jobs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Business for sale</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Volunteering</a>
+      </li>
+      <ul class="nav justify-content-end" style="padding-left: 10rem;">
+        <li class="nav-item">
+          <a class="nav-link" href="#">AU</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NZ</a>
+        </li>
+      </ul>
+    </ul>
+  </div>
+  <div>
+    <nav class="navbar py-2">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1" style="padding-left:15rem">Peek</span>
+        <ul class="nav justify-content-center" id="bar" style="padding-right: 15rem;">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Account</a>
+          </li>
+          <li class="nav-item">
+            <b class="nav-link" href="#">|</b>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Employer Site</a>
+          </li>
+          </ul>
+      </div>
+    </nav>
+    <div style="background-color:lightgray;">
+      <ul class="nav justify-content-center" id="bar2" style="font-size:1.5rem">
+        <li class="nav-item active">
+          <a class="nav-link2" href="#">Job Search</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link2" href="#">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link2" href="#">Career Advice</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link2" href="#">Company Reviews</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+  <div class="d-flex justify-content-center py-2" style="background-color: #0d3880;">
+    <form>
+      <div class="form-row">
+        <div class="form-group md-6 px-2">
+          <label><b style="color:#FFF;">What</b></label>
+          <input type="text" placeholder="Enter keywords" class="form-control">
+        </div>
+        <div class="form-group md-6">
+          <label><br></label>
+          <div class="dropdown">
+            <button class="btn dropdown-toggle" style="background-color: #FFF;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+             Any classification
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">IT</a>
+              <a class="dropdown-item" href="#">Business</a>
+              <a class="dropdown-item" href="#">Accounting</a>
+            </div>
+          </div>
+        </div>
+        <div class="form-group  px-2">
+          <label><b style="color:#FFF;">Where</b></label>
+          <input type="text" placeholder="Enter city or ZIP" class="form-control">
+        </div>
+        <div class="col-auto " style="margin-top:2.0rem;">
+          <button type="submit" class="btn btn-primary btn-auto" style="background-color:#e60278">Peek</button>
+        </div>
+      </div>
+    </form>
+  </div>  
+  </div>
+  <div class="d-flex justify-content-center py-3">
+    <b class="px-3 py-2">Recent searches</b>
+    <button class="btn" style="background-color: #eee;"><span class="material-icons">search</span>Web Developer</button>
+    <button class="btn mx-2" style="background-color: #eee;"><span class="material-icons">search</span>Graduate Developer</button>
+    <button class="btn mx-2" style="background-color: #eee;"><span class="material-icons">search</span>HTML</button>
+  </div>
+  <hr>
+  <div class="container">
+    <div class="row">
+      <div class="col" style="border-right:2px solid #eee">
+        <p style="font-size:1.3rem;">        <span style="color:#157e00" class="material-icons px-2">
+          thumb_up
+          </span><span style="color:#157e00">50</span> Recommended jobs</p>
+          <ul class="list-group" >
+            <li class="list-group-item" style="border:0px">
+            <a href="">Junior Developer</a>
+            <p class="text-muted">Abhik.com</p>
+            </li>
+            <li class="list-group-item" style="border:0px">
+              <a href="">Administrator</a>
+              <p class="text-muted">Some Fella Pty.Ltd</p>
+              </li>
+          </ul>
+      </div>
+      <div class="col" style="border-right:2px solid #eee">
+        <p style="font-size:1.3rem;"><span style="color:#e60278" class="material-icons">
+          star
+        </span><span style="color:#e60278">0</span> Saved jobs</p>
+        Use the  <span style="color:#e60278"> Save</span> button on each job listing to save it for later. You can then access them on all your devices.
+      </div>
+      <div class="col">
+        <p style="font-size:1.3rem;"><span style="color:#2765cf" class="material-icons">
+          favorite
+        </span><span style="color:#2765cf">0</span> Saved jobs</p>
+        Use the <span style="color:#2765cf"> Save search</span> below the search results to save your search and receive every new job.
+      </div>
+    </div>
+  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

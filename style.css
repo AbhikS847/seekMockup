@@ -1,0 +1,27 @@
+a:hover{
+    color:black;
+}
+
+.nav-link{
+    color:#747474;
+}
+
+.nav-link.active{
+    color:black;
+    border-bottom:2px solid black;
+}
+
+.nav-link2{
+    display: block;
+    padding: .5rem 1rem;
+    color: #000;
+}
+
+.nav-link2:hover{
+    text-decoration: none;
+}
+
+.nav-link2.active{
+    background-color: #0d3880;
+    color:#FFF;
+}
